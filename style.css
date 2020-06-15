@@ -1,0 +1,76 @@
+@import url(./vendor/normalize.css);
+@import url(./fonts/Inter/inter.css);
+
+@import url(./blocks/page/page.css);
+@import url(./blocks/header/header.css);
+
+
+
+.lead {
+  width: 76.875%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lead__title {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 104%;
+  text-align: center;
+  margin: 56px 0 32px;
+  max-width: 720px;
+}
+.lead__subtitle {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  margin: 0 auto 64px;
+  max-width: 640px;
+}
+.lead__image {
+  width: 100%;
+  margin: 0 auto;
+}
+.lead__caption {
+  align-self: flex-start;
+  margin: 8px 0 0;
+}
+.intro {
+  width: 50%;
+  margin-top: 92px;
+  margin-left: 11.5625%;
+}
+.intro__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+}
+.intro__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.intro__list {
+  list-style-type: none;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 0;
+}
+.photo-grid {
+  display: grid;
+  width: 92.5%;
+  margin: 92px auto 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+}
+.photo-grid__item {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
