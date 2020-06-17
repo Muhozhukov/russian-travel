@@ -1,0 +1,17 @@
+.cover__link-box {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(41, 43, 46, .3);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  z-index: 20;
+  transition: .2s;
+}
+.cover__link-box:hover {
+  background-color: rgb(41, 43, 46, .8);
+}

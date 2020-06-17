@@ -2,9 +2,28 @@
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang-link/header__lang-link.css);
 
+
 .header {
   display: flex;
   justify-content: space-between;
-  width: 92.5%;
   margin: 0 auto;
+  width: 92.5%;
 }
+@media screen and (max-width: 1279px) {
+  .header {
+    width: 90.625%;
+
+  }
+}
+@media screen and (max-width: 1023px) {
+  .header {
+    width: 93.75%;
+
+  }
+}
+@media screen and (max-width: 767px) {
+  .header {
+    width: 90%;
+  }
+}
+

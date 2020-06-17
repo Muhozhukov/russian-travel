@@ -1,8 +1,16 @@
+@import url(./__container/page__container.css);
+
 .page {
-  width: 100%;
   background-color: #2A2C2F;
+  color: #fff;
+
   font-family: Inter;
   position: relative;
   padding-top: 28px;
   color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .page {
+    padding-top: 16px;
+  }
 }
