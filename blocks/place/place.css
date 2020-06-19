@@ -8,7 +8,6 @@
 
 .place {
   width: 76.875%;
-  min-height: 660px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(200px, 460px) 1fr;
@@ -22,11 +21,13 @@
 @media screen and (max-width: 1279px) {
   .place {
     width: 90.625%;
+    grid-template-columns: 440px 456px;
   }
 }
 @media screen and (max-width: 1023px) {
   .place {
     width: 93.75%;
+    grid-template-columns: 340px 352px;
   }
 }
 @media screen and (max-width: 767px) {

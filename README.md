@@ -12,4 +12,4 @@
 * [Ссылка на макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
 
 
-* [Ссылка на репозиторий GitHub](https://github.com/Muhozhukov/russian-travel)
+* [Ссылка на репозиторий GitHub](https://muhozhukov.github.io/russian-travel/index.html)
